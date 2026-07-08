@@ -1,26 +1,91 @@
-html {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
+* {
+    font-size: 20px;
+    font-family: sans-serif,arial,fantasy;
+    
+}
+
+
+.Email {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blueviolet;
+    
+}
+
+.HardSkills {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(102, 103, 171);
+    border: 0.5px solid;
+    padding-bottom: 10px;
+    
+}
+
+.Gatinho{
+    margin: 50px;
+    border-radius: 60%;
+}
+
+.SoftSkills {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(102, 103, 171);
+    border: 0.5px solid #46374A;
+}
+
+
+body {
+    background-color: rgb(245, 213, 224);
+}
+
+strong {
+    color: rgb(66, 13, 75);
+
 }
 
 h1 {
-    font-size: 1.6rem;
+    color: rgb(33, 6, 53);
+    text-align: center;
 }
 
-h2 {
-    font-size: 1.4rem;
+p {
+    color: rgb(6, 4, 5);
+    font-family: 'Times New Roman', Times, serif;
+    text-align:left;
 }
 
-h3 {
-    font-size: 1.2rem;
+
+body {
+    font-family: Arial, sans-serif;
 }
 
-h4 {
-    font-size: 1.1rem;
+.navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    color: white;
 }
 
-.Email {
-    font-style: italic;
+.navbar .logo {
+    font-size: 24px;
     font-weight: bold;
-    color:rgb(18, 7, 50)
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: rgb(36, 13, 66);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #4CAF50; /* Cor ao passar o mouse */
 }
